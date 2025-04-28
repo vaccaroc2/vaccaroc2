@@ -4,13 +4,38 @@
 <head>
   <meta charset="UTF-8">
   <title>Dangers of Public Wi-Fi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Roboto', Arial, sans-serif;
       background-color: #f0f4f8;
       color: #333;
-      margin: 40px;
+      margin: 0;
+      padding: 0;
       line-height: 1.6;
+    }
+    nav {
+      background-color: #007acc;
+      padding: 15px;
+      text-align: center;
+      border-bottom: 2px solid #005fa3;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .card {
+      background-color: white;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
     h1, h2 {
       color: #0056b3;
@@ -18,34 +43,35 @@
     ul {
       padding-left: 20px;
     }
-    a {
-      color: #007acc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
     p, li {
       margin-bottom: 10px;
     }
   </style>
 </head>
 <body>
-  <h1>Dangers of Public Wi-Fi</h1>
-  <p>Public Wi-Fi networks are often open and unsecured, making users vulnerable to:</p>
-  <ul>
-    <li><strong>Man-in-the-middle (MITM) attacks:</strong> Hackers intercept communication between users and websites.</li>
-    <li><strong>Packet sniffing:</strong> Attackers capture unencrypted data traveling through the network.</li>
-    <li><strong>Rogue access points:</strong> Fake Wi-Fi networks trick users into connecting.</li>
-    <li><strong>Malware injection:</strong> Hackers deliver malicious code through insecure connections.</li>
-  </ul>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="dangers.html">Dangers</a>
+    <a href="protection.html">Protection</a>
+  </nav>
+  <div class="card">
+    <h1>Dangers of Public Wi-Fi</h1>
+    <p>Public Wi-Fi networks are often open and unsecured, making users vulnerable to:</p>
+    <ul>
+      <li><strong>Man-in-the-middle (MITM) attacks:</strong> Hackers intercept communication between users and websites.</li>
+      <li><strong>Packet sniffing:</strong> Attackers capture unencrypted data traveling through the network.</li>
+      <li><strong>Rogue access points:</strong> Fake Wi-Fi networks trick users into connecting.</li>
+      <li><strong>Malware injection:</strong> Hackers deliver malicious code through insecure connections.</li>
+    </ul>
 
-  <h2>Consequences:</h2>
-  <ul>
-    <li><strong>Identity theft:</strong> Stolen personal data can lead to financial loss and damaged credit.</li>
-    <li><strong>Corporate risks:</strong> Compromised devices can expose company data and systems.</li>
-  </ul>
+    <h2>Consequences:</h2>
+    <ul>
+      <li><strong>Identity theft:</strong> Stolen personal data can lead to financial loss and damaged credit.</li>
+      <li><strong>Corporate risks:</strong> Compromised devices can expose company data and systems.</li>
+    </ul>
 
-  <p><a href="index.html">Back to Main Page</a></p>
+    <p><a href="index.html">Back to Main Page</a></p>
+  </div>
 </body>
 </html>
+
